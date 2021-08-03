@@ -82,7 +82,7 @@ function epicycles(x,y,rotation,fourier){
     ellipse(prevx,prevy,radius*2);
 
     fill(255);
-    stroke(255);
+    stroke(255, 103, 114);
     line(prevx,prevy,x,y);
     //ellipse(x,y,8);
 
@@ -107,7 +107,7 @@ function draw() {
 
     drawing.push(point);
 
-    stroke(255);
+    stroke(255, 103, 114);
     noFill();
     beginShape();
     for(let v of drawing){
